@@ -1,5 +1,5 @@
 TOPLEVEL_LANG = verilog
-VERILOG_SOURCES = $(shell pwd)/dff.sv
+VERILOG_SOURCES = $(shell pwd)/dff.v
 TOPLEVEL = dff
 MODULE = test_dff
 
