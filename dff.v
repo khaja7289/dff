@@ -10,9 +10,9 @@ module dff (
 always @(posedge clk) begin
     q <= d;
 end
-    initial begin
-	$dumpfile("dff.vcd");
-	$dumpvars;
-    end
+    //initial begin
+//	$dumpfile("dff.vcd");
+//	$dumpvars;
+//    end
 
 endmodule
