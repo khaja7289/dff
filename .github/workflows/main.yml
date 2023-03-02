@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is learning Cocotb
 on: [push]
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v3
